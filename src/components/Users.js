@@ -41,7 +41,7 @@ export default function Users() {
 
             <Space wrap>
               <Button type="primary" style={btnStyle}>
-                <Link to={`/albums/${user.id}`}>Albums</Link>
+                <Link to={`/hw26.1/albums/${user.id}`}>Albums</Link>
               </Button>
             </Space>
           </li>

@@ -45,7 +45,7 @@ export default function Albums() {
           <li key={album.id}>
             <Space wrap>
               <Button type="primary" style={btnStyle}>
-                <Link to={`/albums/${userId}/photos/${album.id}`}>
+                <Link to={`/hw26.1/albums/${userId}/photos/${album.id}`}>
                   {album.title}
                 </Link>
               </Button>

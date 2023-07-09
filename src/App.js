@@ -42,10 +42,10 @@ export default function App() {
         <Header style={headerStyle}>Header</Header>
         <Content style={contentStyle}>
           <Routes>
-            <Route exact path="/" element={<Users />} />
-            <Route path="/albums/:userId" element={<Albums />} />
+            <Route exact path="/hw26.1" element={<Users />} />
+            <Route path="/hw26.1/albums/:userId" element={<Albums />} />
             <Route
-              path="/albums/:userId/photos/:albumId"
+              path="/hw26.1/albums/:userId/photos/:albumId"
               element={<Photos />}
             />
           </Routes>

@@ -9,7 +9,11 @@ export default function Albums() {
     paddingInlineStart: "0px",
   };
   const btnStyle = {
+    width: "100px",
+  };
+  const spanStyle = {
     width: "500px",
+    display: "inline-block",
   };
 
   useEffect(() => {
@@ -43,10 +47,11 @@ export default function Albums() {
       <ul style={listStyle}>
         {albums.map((album) => (
           <li key={album.id}>
+            <span style={spanStyle}>{album.title}</span>
             <Space wrap>
               <Button type="primary" style={btnStyle}>
                 <Link to={`/hw26.1/albums/${userId}/photos/${album.id}`}>
-                  {album.title}
+                  Photos
                 </Link>
               </Button>
             </Space>

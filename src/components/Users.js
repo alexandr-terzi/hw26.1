@@ -12,7 +12,7 @@ export default function Users() {
     display: "inline-block",
   };
   const btnStyle = {
-    width: "300px",
+    width: "100px",
   };
 
   useEffect(() => {

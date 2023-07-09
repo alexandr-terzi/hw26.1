@@ -6,6 +6,11 @@ export default function Photos() {
   const { userId, albumId } = useParams();
   const listStyle = {
     paddingInlineStart: "0px",
+    display: "flex",
+    flexDirection: "row",
+    alignItems: "center",
+    flexWrap: "wrap",
+    justifyContent: "space-between",
   };
 
   useEffect(() => {
